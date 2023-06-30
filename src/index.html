@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 10</title>
+  </head>
+  <body>
+    <style>
+      .breed-select {
+        margin-bottom: 20px;
+      }
+      .cat-info {
+        display: flex;
+      }
+      .wrap-text {
+        max-width: 700px;
+      }
+      img {
+        margin-right: 20px;
+      }
+      span {
+        font-weight: bold;
+      }
+    </style>
+    <select id="single" class="breed-select" hidden="true"></select>
+    <p class="loader" hidden="true">Loading data, please wait...</p>
+    <p class="error" hidden="true">
+      Oops! Something went wrong! Try reloading the page!
+    </p>
+    <div class="cat-info"></div>
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
